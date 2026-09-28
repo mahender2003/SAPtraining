@@ -81,7 +81,8 @@ context transaction {
         key NODE_KEY         : common.Guid;
             PO_ID            : common.Guid;
 
-            // Managed Association
+            // Managed Association helloooooo
+            
             PARTNER          : Association to master.BusinessPartners;
 
             LIFECYCLE_STATUS : String(1);
