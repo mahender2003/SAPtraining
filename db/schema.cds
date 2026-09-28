@@ -95,7 +95,7 @@ context transaction {
     entity PurchaseItems : common.Amount {
         key NODE_KEY    : common.Guid;
 
-            // Parent Key
+            // Parent Key hello 
             PARENT      : Association to PurchaseOrders;
 
             PO_ITEM_POS : Integer;
