@@ -1,0 +1,16 @@
+GET http://localhost:4004/odata/v4/catalog-services
+
+###
+GET http://localhost:4004/odata/v4/catalog-services/ProductSrv/Gethighpricepro
+
+###
+GET http://localhost:4004/odata/v4/catalog-services/EmployeeSrv/$count
+
+###
+GET http://localhost:4004/odata/v4/catalog-services/EmployeeSrv?$top=10&$count=true
+###
+POST http://localhost:4004/odata/v4/catalog-services/EmployeeSrv/02BD2137-0890-1EEA-A6C2-BB55C19787FB/CatalogServices.increaseprice
+Content-Type: application/json
+
+{}
+
